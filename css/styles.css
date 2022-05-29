@@ -1,3 +1,14 @@
+:root {
+    --header-color: #212121;
+    --title-color:#212121;
+    --text-color:#757575;
+    --btn-color:#2196F3;
+    --second-title-color:#FFFFFF;
+    --logo-colar:#2196F3;
+    --header-link-color:#757575;
+    --second-btn-color:#212121;
+}
+
 body{
 font-family: 'Roboto', sans-serif;
 color: #212121;
@@ -15,7 +26,7 @@ color: #212121;
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
-    color: #2196F3;}
+    color: var(--logo-colar);}
     .logo-accent {
         color: black;
     }
@@ -25,7 +36,7 @@ color: #212121;
     line-height: 1.14;
     letter-spacing: 0.02em;
     
-    color: #212121;
+    color: var(--header-color);
   }
   .header-mail {
       
@@ -34,7 +45,7 @@ color: #212121;
   line-height: 1.14;
   letter-spacing: 0.02em;
   
-  color: #757575;
+  color: var(--header-link-color);
   }
   .header-tel {
     font-weight: 500;
@@ -42,48 +53,47 @@ color: #212121;
     line-height: 1.14;
     letter-spacing: 0.02em;
     
-    color: #757575;
-    
+    color: var(--header-link-color)
   }
   .header-link:hover,
   .header-link:focus {
-    color: #2196F3;
+    color: var(--btn-color);
   }
   .header-mail:hover,
   .header-mail:focus {
-    color: #2196F3;
+    color: var(--btn-color);
   }
   .header-tel:hover,
   .header-tel:focus {
-    color: #2196F3;
+    color: var(--btn-color);
   }
   .footer-link-place:hover,
   .footer-link-place:focus {
-    color: #2196F3;
+    color: var(--btn-color);
   }
   .footer-mail:hover,
   .footer-mail:focus {
-    color: #2196F3;
+    color: var(--btn-color);
   }
   .footer-tel:hover,
   .footer-tel:focus {
-    color: #2196F3;
+    color: var(--btn-color);
 
   }
   .business-btn:hover,
   .business-btn:focus {
-    background: #2196F3;
+    background: var(--btn-color);
   }
   .main-btn:hover,
   .main-btn:focus {
-    background: #2196F3;
+    background: var(--btn-color);
   }
                                          /*main*/
 .main-title {
     font-weight: 900;
 font-size: 44px;
 line-height: 1.36;
-color: #FFFFFF;
+color:var(--second-title-color);
 }
   .business-btn {
     font-family: 'Roboto';
@@ -99,30 +109,29 @@ color: #FFFFFF;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     
-    color: #212121;
+    color: var(--title-color);
   } 
   .option-iyem-text {
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
     
-    color: #757575;
+    color: var(--text-color);
   }     
   .work-title {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.71;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     
-    color: #757575;
+    color: var(--title-color);
   }   
   .hero-title {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
     letter-spacing: 0.03em;
-    color: #212121;
+    color: var(--title-color);
     
   }  
   .hero-name {
@@ -131,27 +140,24 @@ color: #FFFFFF;
     line-height: 1.19;
     letter-spacing: 0.03em;
     
-    color: #212121;
+    color: var(--title-color);
   }     
   .hero-work {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.19;
     letter-spacing: 0.03em;
     
-    color: #757575;
+    color: var(--text-color);
   }   
                                     /*footer*/
    .footer-link-place {
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
     
-    color: #FFFFFF;
+    color: var(--second-title-color);
    }
    .footer-mail {
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -159,7 +165,6 @@ color: #FFFFFF;
     
    }
    .footer-tel {
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -178,7 +183,7 @@ color: #FFFFFF;
     line-height: 1.63;
     letter-spacing: 0.03em;
     
-    color: #212121;
+    color: var(--second-btn-color);
   }  
   .box-title{
     font-weight: 700;
@@ -186,15 +191,14 @@ color: #FFFFFF;
     line-height: 2.00;
     letter-spacing: 0.06em;
     
-    color: #212121;
+    color: var(--title-color);
     
   }                                                   
   .box-text {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.03em;
     
-    color: #757575;
+    color: var(--text-color);
   }    
   
