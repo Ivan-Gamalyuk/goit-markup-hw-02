@@ -67,19 +67,7 @@ color: #212121;
   .header-tel:focus {
     color: var(--btn-color);
   }
-  .footer-link-place:hover,
-  .footer-link-place:focus {
-    color: var(--btn-color);
-  }
-  .footer-mail:hover,
-  .footer-mail:focus {
-    color: var(--btn-color);
-  }
-  .footer-tel:hover,
-  .footer-tel:focus {
-    color: var(--btn-color);
 
-  }
   .business-btn:hover,
   .business-btn:focus {
     background: var(--btn-color);
@@ -94,6 +82,7 @@ color: #212121;
 font-size: 44px;
 line-height: 1.36;
 color:var(--second-title-color);
+
 }
   .business-btn {
     font-family: 'Roboto';
